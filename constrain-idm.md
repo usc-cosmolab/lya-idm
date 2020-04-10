@@ -8,9 +8,10 @@
 	
 	This is because you will be installing a new version of CLASS that you don't want to mix up with any version of class in any other environment. 
 	
-2. Clone and install the version of the CLASS code that implements IDM (but call it something different from the original CLASS repo):
+2. After activating the `idm` environment, then clone and install the version of the CLASS code that implements IDM (but call it something different from the original CLASS repo):
 
 	```
+	conda activate idm
 	git clone https://github.com/kboddy/class_public class_idm
 	cd class_idm
 	git checkout dmeff
