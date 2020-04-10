@@ -22,7 +22,7 @@
 
 4. Write a function that returns the log-likelihood of the lyman-alhpa data given a chosen dark matter mass and cross-section (all other cosmological parameters fixed to the values in `lya.conf.lcdm_params`, with `omega_dmeff` replacing `omega_cdm` value, and `omega_cdm=0`).  
 
-5. For a chosen fixed mass, evaluate this likelihood at a range of cross-section values to map out a 1-d likelihood (you will need to explore what a sensible range of values should be).  Make a plot of log-likelihood vs. cross-section.
+5. For a chosen fixed mass, evaluate this likelihood at a range of cross-section values to map out a 1-d likelihood (you will need to explore what a sensible range of values should be).  Make a plot of log-likelihood vs. cross-section.  Current CMB limit on `sigma_dmeff` is on the order of $10^{-27}$.
 
 6. From this analysis, find the cross-section that represents the 95% upper limit.
 
